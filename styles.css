@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 body {
     
     background-size: 100%;
@@ -9,19 +12,24 @@ body {
 h1{
     color:rgb(171, 173, 173);
     text-align: center;
-    font-size: large;
+    
+    
 }
-h2{
+header p{
+    color: brown;
     text-align: center;
-    margin-top: -1%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(171, 173, 173);
+
+
+    
 }
 
+
 #maphoto{
-    padding-left: 42%;
-    margin-top: -1%;
-   
+    border-radius: 50%;
     
 }
 .details{
@@ -36,4 +44,70 @@ h2{
 #certificats{
     text-decoration: none;
     border-bottom: 1px dotted;
+}
+#parent {
+    display: flex;
+    
+}
+
+#aside_1{
+    width: 200px;
+    background-color: rgb(126, 151, 131);
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 0px  ;
+    margin-bottom: 250px;
+
+}
+
+#aside_1 h4{
+    margin-top: 10px;
+    font-size: 14px;
+    color: brown;
+    
+}
+#aside_1 ol{
+    padding-left: 20px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: -5px;
+    
+}
+main{
+    justify-content: flex;
+    
+    
+}
+#sections{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.section{
+    background-color: rgb(232, 238, 238);
+    width: 270px;
+    text-align: left;
+    flex-grow: initial;
+    margin: 3px;
+    float: left;
+    border-radius: 15px;
+    
+}
+.section h2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+.section strong{
+    color: brown;
 }
